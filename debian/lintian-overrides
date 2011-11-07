@@ -1,0 +1,3 @@
+non-standard-dir-perm var/cache/reprepro/ 0664 != 0755
+non-standard-dir-perm var/lib/reprepro/ 0664 != 0755
+non-standard-dir-perm var/log/reprepro/ 0664 != 0755

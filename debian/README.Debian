@@ -1,6 +1,7 @@
 reprepro-conf for Debian
 ------------------------
 
-<possible notes regarding this package - if none, delete this file>
+This is custom configuration package for reprepro. It assumes that operator is 
+member of adm group.
 
- -- Marcin Antczak <marcin.antczak@neutrico.pl>  Mon, 07 Nov 2011 15:58:55 +0100
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>, Mon,  7 Nov 2011 22:37:15 +0100
