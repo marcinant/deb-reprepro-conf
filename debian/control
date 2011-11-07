@@ -10,6 +10,6 @@ Vcs-Browser: https://github.com/marcinant/deb-reprepro-conf
 
 Package: reprepro-conf
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, reprepro (>= 4.6.0)
+Description: Debian package repository producer configuration.
+ Configuration package for reprepro
