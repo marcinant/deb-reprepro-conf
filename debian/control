@@ -1,0 +1,15 @@
+Source: reprepro-conf
+Section: utils
+Priority: extra
+Maintainer: Marcin Antczak <marcin.antczak@neutrico.pl>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/marcinant/reprepro-conf
+Vcs-Git: ssh://git@github.com/marcinant/deb-reprepro-conf.git
+Vcs-Browser: https://github.com/marcinant/deb-reprepro-conf
+
+Package: reprepro-conf
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
