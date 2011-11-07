@@ -7,7 +7,7 @@
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
 # Uncomment this to turn on verbose mode.
-export DH_VERBOSE=1
+# export DH_VERBOSE=1
 
 DEB_SRC := $(shell dpkg-parsechangelog | grep Source: | cut -d ' ' -f2)
 
@@ -16,9 +16,10 @@ DEB_SRC := $(shell dpkg-parsechangelog | grep Source: | cut -d ' ' -f2)
 
 override_dh_fixperms:
 	dh_fixperms
-	chgrp -R adm $(CURDIR)/debian/$(DEB_SRC)/srv/ppa
+	chgrp -R adm $(CURDIR)/debian/$(DEB_SRC)/var/cache/reprepro
 	chgrp -R adm $(CURDIR)/debian/$(DEB_SRC)/var/lib/reprepro
 	chgrp -R adm $(CURDIR)/debian/$(DEB_SRC)/var/log/reprepro
-	chmod -R 664 $(CURDIR)/debian/$(DEB_SRC)/srv/ppa
+	chmod -R 755 $(CURDIR)/debian/$(DEB_SRC)/etc/profile.d/reprepro.sh
+	chmod -R 664 $(CURDIR)/debian/$(DEB_SRC)/var/cache/reprepro
 	chmod -R 664 $(CURDIR)/debian/$(DEB_SRC)/var/lib/reprepro
 	chmod -R 664 $(CURDIR)/debian/$(DEB_SRC)/var/log/reprepro
