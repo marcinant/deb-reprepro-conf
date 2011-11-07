@@ -24,6 +24,6 @@ override_dh_installdirs:
 	chmod -R 664 $(CURDIR)/debian/$(DEB_SRC)/var/log/reprepro
 
 override_dh_fixperms:
-	dh_fixperms --exclude $(CURDIR)/debian/$(DEB_SRC)/srv/ppa
-	dh_fixperms --exclude $(CURDIR)/debian/$(DEB_SRC)/var/log/reprepro
-	dh_fixperms --exclude $(CURDIR)/debian/$(DEB_SRC)/var/lib/reprepro
+	dh_fixperms --exclude srv/ppa
+	dh_fixperms --exclude var/log/reprepro
+	dh_fixperms --exclude var/lib/reprepro
