@@ -1,5 +1,9 @@
-distributions	etc/reprepro
-incoming	etc/reprepro
-options		etc/reprepro
-updates		etc/reprepro
+config/debian/distributions	etc/reprepro/debian
+config/debian/incoming		etc/reprepro/debian
+config/debian/options		etc/reprepro/debian
+config/debian/updates		etc/reprepro/debian
+config/ubuntu/distributions	etc/reprepro/ubuntu
+config/ubuntu/incoming		etc/reprepro/ubuntu
+config/ubuntu/options		etc/reprepro/ubuntu
+config/ubuntu/updates		etc/reprepro/ubuntu
 reprepro.sh	etc/profile.d
