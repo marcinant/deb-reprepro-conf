@@ -22,7 +22,6 @@ set -e
 case "$1" in
     purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
 	unset REPREPRO_BASE_DIR
-	unset REPREPRO_CONFIG_DIR
     ;;
 
     *)

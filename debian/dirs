@@ -1,3 +1,5 @@
-var/cache/reprepro
+var/cache/reprepro/debian
+var/cache/reprepro/ubuntu
+var/lib/reprepro/debian
+var/lib/reprepro/ubuntu
 var/log/reprepro
-var/lib/reprepro
