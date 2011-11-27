@@ -1,0 +1,8 @@
+/var/log/reprepro/*.log {
+			rotate 12
+			monthly
+			compress
+			missingok
+			notifempty
+			create 664 root adm
+}

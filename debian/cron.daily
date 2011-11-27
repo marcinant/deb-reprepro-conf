@@ -1,6 +1,13 @@
 #!/bin/sh
 
-reprepro --confdir /etc/reprepro/debian/ update squeeze
-reprepro --confdir /etc/reprepro/debian/ update sid
-reprepro --confdir /etc/reprepro/ubuntu/ update oneiric
-reprepro --confdir /etc/reprepro/ubuntu/ update precise	
+# update supported debian releases
+for d in squeeze sid
+do
+    reprepro --confdir /etc/reprepro/debian/ -V update $d
+done
+
+# update supported ubuntu releases
+for u in oneiric precise
+do
+    reprepro --confdir /etc/reprepro/ubuntu/ -V update $u
+done
