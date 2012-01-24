@@ -1,3 +1,9 @@
+reprepro-conf (0-14~f111d3b-1~squeeze1) squeeze; urgency=low
+
+  * New upstream version import
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Tue, 24 Jan 2012 04:55:55 +0100
+
 reprepro-conf (0-13~726415e-1~squeeze5) squeeze; urgency=low
 
   * New build
