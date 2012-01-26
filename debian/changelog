@@ -1,3 +1,9 @@
+reprepro-conf (0-19~d1b2c19-1~precise1) precise; urgency=low
+
+  * New upstream version import
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Thu, 26 Jan 2012 16:46:13 +0100
+
 reprepro-conf (0-15~3dff3c4-1~precise4) precise; urgency=low
 
   * New build
