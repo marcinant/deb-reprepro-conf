@@ -1,3 +1,9 @@
+reprepro-conf (0-19~d1b2c19-1~oneiric2) oneiric; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Thu, 26 Jan 2012 17:53:48 +0100
+
 reprepro-conf (0-19~d1b2c19-1~oneiric1) oneiric; urgency=low
 
   * New upstream version import
