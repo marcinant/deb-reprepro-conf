@@ -1,3 +1,9 @@
+reprepro-conf (0-19~d1b2c19-1~sid2) sid; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Thu, 26 Jan 2012 17:53:40 +0100
+
 reprepro-conf (0-19~d1b2c19-1~sid1) sid; urgency=low
 
   * New upstream version import
