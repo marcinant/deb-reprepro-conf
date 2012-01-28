@@ -1,3 +1,9 @@
+reprepro-conf (0-20~66fd4a9-1~sid24) sid; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Sun, 29 Jan 2012 00:46:03 +0100
+
 reprepro-conf (0-20~66fd4a9-1~sid23) sid; urgency=low
 
   * New build
