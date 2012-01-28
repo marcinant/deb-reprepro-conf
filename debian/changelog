@@ -1,3 +1,9 @@
+reprepro-conf (0-20~66fd4a9-1~unstable144) unstable; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Sat, 28 Jan 2012 20:27:07 +0100
+
 reprepro-conf (0-20~66fd4a9-1~unstable143) unstable; urgency=low
 
   * New build
