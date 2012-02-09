@@ -1,8 +1,10 @@
 config/debian/distributions	etc/reprepro/debian
+config/debian/blacklist		etc/reprepro/debian
 config/debian/incoming		etc/reprepro/debian
 config/debian/options		etc/reprepro/debian
 config/debian/updates		etc/reprepro/debian
 config/ubuntu/distributions	etc/reprepro/ubuntu
+config/ubuntu/blacklist		etc/reprepro/debian
 config/ubuntu/incoming		etc/reprepro/ubuntu
 config/ubuntu/options		etc/reprepro/ubuntu
 config/ubuntu/updates		etc/reprepro/ubuntu
