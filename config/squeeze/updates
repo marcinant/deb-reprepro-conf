@@ -27,17 +27,10 @@
 # ListShellHook
 # DownloadListsAs
 
-Name: ubuntu-oneiric-update
-Method: http://pl.archive.ubuntu.com/ubuntu/
-Components: main restricted universe multiverse
+Name: debian-squeeze-update
+Method: http://ftp.vectranet.pl/debian/
+Components: main non-free
+# contrib
 Architectures: amd64
 IgnoreRelease: Yes
 FilterList: install blacklist
-
-Name: ubuntu-precise-update
-Method: http://pl.archive.ubuntu.com/ubuntu/
-Components: main restricted universe multiverse
-Architectures: amd64
-IgnoreRelease: Yes
-FilterList: install blacklist
-
