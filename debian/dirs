@@ -1,5 +1,7 @@
 var/cache/reprepro/debian
 var/cache/reprepro/ubuntu
-var/lib/reprepro/debian
-var/lib/reprepro/ubuntu
+var/lib/reprepro/squeeze
+var/lib/reprepro/sid
+var/lib/reprepro/oneiric
+var/lib/reprepro/precise
 var/log/reprepro

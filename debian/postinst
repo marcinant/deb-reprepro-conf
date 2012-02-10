@@ -17,12 +17,31 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+DIST=$(lsb_release -cs)
+
+if [ -n "$(debian-distro-info --all | grep $DIST)" ]; then
+    DIST_TYPE="debian"
+    COMPONENTS="main non-free"
+elif [ -n "$(ubuntu-distro-info --all | grep $DIST)" ]; then
+    DIST_TYPE="ubuntu"
+    COMPONENTS="main restricted universe multiverse non-free"
+fi
+
+OUT_DIR=$(grep outdir /etc/reprepro/$DIST/options | cut -d ' '  -f2)
+#COMPONENTS=$(grep -m 1 Components /etc/reprepro/$DIST_TYPE/distributions | cut -d ' ' -f2)
+
+PPA="deb file://$OUT_DIR $DIST $COMPONENTS"
+
+apt-add-repository -y "$PPA"
 
 case "$1" in
     configure)
 	if test -f /etc/profile.d/reprepro.sh; then
 	    . /etc/profile.d/reprepro.sh
 	fi
+	
+	apt-add-repository -y "$PPA"
+	apt-get update
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
