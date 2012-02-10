@@ -6,9 +6,9 @@
 #
 ####################################################################
 
-dbdir /var/lib/reprepro/ubuntu
+dbdir /var/lib/reprepro/sid
 logdir /var/log/reprepro
-outdir /media/Repository/ubuntu
+outdir /media/Respository/debian/sid
 ignore undefinedtarget
 ask-passphrase
 verbose
