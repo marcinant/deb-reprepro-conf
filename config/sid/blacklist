@@ -1744,6 +1744,7 @@ xulrunner-1.9.1-dbg					purge
 xulrunner-7.0-dbg					purge
 xulrunner-8.0-dbg					purge
 xulrunner-9.0-dbg					purge
+xulrunner-10.0-dbg					purge
 yauap-dbg						purge
 yorick-dbg						purge
 yoshimi-dbg						purge
