@@ -3,11 +3,11 @@
 # update supported debian releases
 for d in squeeze sid
 do
-    reprepro --confdir /etc/reprepro/debian/ -V update $d
+    reprepro --confdir /etc/reprepro/$d/ -V update $d
 done
 
 # update supported ubuntu releases
 for u in oneiric precise
 do
-    reprepro --confdir /etc/reprepro/ubuntu/ -V update $u
+    reprepro --confdir /etc/reprepro/$u/ -V update $u
 done

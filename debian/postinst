@@ -27,7 +27,7 @@ elif [ -n "$(ubuntu-distro-info --all | grep $DIST)" ]; then
     COMPONENTS="main restricted universe multiverse non-free"
 fi
 
-OUT_DIR=$(grep outdir /etc/reprepro/$DIST_TYPE/options | cut -d ' '  -f2)
+OUT_DIR=$(grep outdir /etc/reprepro/$DIST/options | cut -d ' '  -f2)
 #COMPONENTS=$(grep -m 1 Components /etc/reprepro/$DIST_TYPE/distributions | cut -d ' ' -f2)
 
 PPA="deb file://$OUT_DIR $DIST $COMPONENTS"
