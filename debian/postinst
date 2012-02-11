@@ -32,6 +32,7 @@ OUT_DIR=$(grep outdir /etc/reprepro/$DIST/options | cut -d ' '  -f2)
 
 PPA="deb file://$OUT_DIR $DIST $COMPONENTS"
 
+apt-add-repository -r "$PPA"
 apt-add-repository -y "$PPA"
 
 case "$1" in
